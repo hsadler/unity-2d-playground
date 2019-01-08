@@ -8,6 +8,10 @@ public class BallShooterControl : MonoBehaviour
     public float thrust;
     public float torque;
 
+    public GameObject ballSpawner;
+    public GameObject ball;
+    public float ballFirePower;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +32,17 @@ public class BallShooterControl : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.D)) {
             GetComponent<Rigidbody2D>().AddTorque(-torque);
+        }
+        if(Input.GetKeyDown(KeyCode.Space)) {
+            GameObject newBall = Instantiate(
+                ball, 
+                ballSpawner.transform.position, 
+                ballSpawner.transform.rotation, 
+                ballSpawner.transform
+            );
+            Rigidbody2D newBallRB = newBall.GetComponent<Rigidbody2D>();
+            newBallRB.velocity = gameObject.GetComponent<Rigidbody2D>().velocity;
+            newBallRB.GetComponent<Rigidbody2D>().AddForce(ballSpawner.transform.up * ballFirePower);
         }
     }
 }
