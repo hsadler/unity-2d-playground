@@ -30,6 +30,7 @@ public class TileFactoryGameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // proceedurally generate the game tiles
         for (int y = -tilesHeight; y < tilesHeight; y++)
         {
             for (int x = -tilesWidth; x < tilesWidth; x++)
