@@ -21,5 +21,17 @@ public class MenuManager : MonoBehaviour
     public void GoToBoilingSquaresScene() {
         SceneManager.LoadScene("BoilingSquares");
     }
+
+    public void GoToGreenGasScene() {
+        SceneManager.LoadScene("GreenGas");
+    }
+
+    public void GoToTileFactoryScene() {
+        SceneManager.LoadScene("TileFactory");
+    }
+
+    public void GoToBallShooterScene() {
+        SceneManager.LoadScene("BallShooter");
+    }
     
 }
