@@ -18,6 +18,10 @@ public class MenuManager : MonoBehaviour
         
     }
 
+    public void ExitGame() {
+        Application.Quit();
+    }
+
     public void GoToBoilingSquaresScene() {
         SceneManager.LoadScene("BoilingSquares");
     }
