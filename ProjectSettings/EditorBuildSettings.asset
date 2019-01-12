@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ad86fef0fd719c544a1333fac8c23646
+  - enabled: 1
+    path: Assets/Scenes/BoilingSquares.unity
+    guid: f1e6ea4431bbcc749905b855c59fede4
+  - enabled: 1
+    path: Assets/Scenes/GreenGas.unity
+    guid: 1407560558bc66643a71c498a13b757f
+  - enabled: 1
+    path: Assets/Scenes/BallShooter.unity
+    guid: 698d43f172eabb944a904e65f126c557
+  - enabled: 1
+    path: Assets/Scenes/TileFactory.unity
+    guid: f5ad79f017769e0478a3b04df9e82203
   m_configObjects: {}
