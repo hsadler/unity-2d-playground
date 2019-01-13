@@ -5,7 +5,7 @@ using UnityEngine;
 public class TileFactoryGameManager : MonoBehaviour
 {
 
-    public static TileFactoryGameManager instance { get; private set; }
+    // public static TileFactoryGameManager instance { get; private set; }
 
     public GameObject gameTilePrefab;
 
@@ -16,16 +16,16 @@ public class TileFactoryGameManager : MonoBehaviour
     /// <summary>
     /// Awake is called when the script instance is being loaded.
     /// </summary>
-    void Awake()
-    {
-        // singleton pattern
-        if(instance == null) {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        } else {
-            Destroy(gameObject);
-        }
-    }
+    // void Awake()
+    // {
+    //     // singleton pattern
+    //     if(instance == null) {
+    //         instance = this;
+    //         DontDestroyOnLoad(gameObject);
+    //     } else {
+    //         Destroy(gameObject);
+    //     }
+    // }
 
     // Start is called before the first frame update
     void Start()
