@@ -28,4 +28,19 @@ SIMULATION IDEAS:
         - rockets
     - circuits
 
-
+RUBE GOLDBERG GAME IDEA:
+    - components:
+        - ramp
+        - conveyor belt
+        - lever and fulcrum
+        - cannon
+        - pendulum
+        - basket on a string (string gets pulled when basket receives item)
+        - balloon
+        - spring
+        - triggers:
+            - rope cut
+            - on/off switch
+        - dominos
+        - gears
+        - containers with stuff        
