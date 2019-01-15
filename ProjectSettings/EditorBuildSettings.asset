@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TileFactory.unity
     guid: f5ad79f017769e0478a3b04df9e82203
+  - enabled: 1
+    path: Assets/Scenes/StickyCannon.unity
+    guid: 1e8096ba9dc638040a69d7f2700cdb1e
+  - enabled: 1
+    path: Assets/Scenes/LeverAndFulcrum.unity
+    guid: 2064045ed2c3f864da93ad8d460737a7
   m_configObjects: {}

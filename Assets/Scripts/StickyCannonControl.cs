@@ -8,12 +8,6 @@ public class StickyCannonControl : MonoBehaviour
     public float rotationSensitivity;
     public GameObject reticle;
     public float tunedAimOffset;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

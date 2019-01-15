@@ -37,5 +37,13 @@ public class MenuManager : MonoBehaviour
     public void GoToBallShooterScene() {
         SceneManager.LoadScene("BallShooter");
     }
+
+    public void GoToLeverAndFulcrumScene() {
+        SceneManager.LoadScene("LeverAndFulcrum");
+    }
     
+    public void GoToStickyCannonScene() {
+        SceneManager.LoadScene("StickyCannon");
+    }
+
 }

@@ -30,10 +30,10 @@ SIMULATION IDEAS:
 
 RUBE GOLDBERG GAME IDEA:
     - components:
-        - ramp
-        - conveyor belt
-        - lever and fulcrum
-        - cannon
+        X ramp
+        X conveyor belt
+        X lever and fulcrum
+        X cannon
         - pendulum
         - basket on a string (string gets pulled when basket receives item)
         - balloon
