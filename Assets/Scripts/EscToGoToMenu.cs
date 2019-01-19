@@ -14,7 +14,6 @@ public class EscToGoToMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Cursor.visible = true;
         if(Input.GetKeyDown(KeyCode.Escape)) {
             SceneManager.LoadScene("Menu");
         }

@@ -1,11 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AimReticleControl : MonoBehaviour
 {
     
     public float moveSpeed;
+
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        SceneManager.sceneUnloaded += SceneExit;
+    }
 
     /// <summary>
     /// Start is called on the frame when a script is enabled just before
@@ -23,4 +32,9 @@ public class AimReticleControl : MonoBehaviour
         mousePos = Camera.main.ScreenToWorldPoint(mousePos);
         transform.position = Vector2.Lerp(transform.position, mousePos, moveSpeed);
     }
+
+    void SceneExit<Scene>(Scene scene) {
+        Cursor.visible = true;
+    }
+    
 }
