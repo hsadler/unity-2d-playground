@@ -36,7 +36,7 @@ RUBE GOLDBERG GAME IDEA:
         X cannon
         X pendulum
         - basket on a string (string gets pulled when basket receives item)
-        - balloon
+        X balloon
         - spring
         - triggers:
             - rope cut
