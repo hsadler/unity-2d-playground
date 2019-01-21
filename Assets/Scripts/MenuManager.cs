@@ -38,12 +38,28 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("BallShooter");
     }
 
+    public void GoToPumpBalloonScene() {
+        SceneManager.LoadScene("PumpBalloon");
+    }
+
     public void GoToLeverAndFulcrumScene() {
         SceneManager.LoadScene("LeverAndFulcrum");
     }
     
     public void GoToStickyCannonScene() {
         SceneManager.LoadScene("StickyCannon");
+    }
+
+    public void GoToPendulumsScene() {
+        SceneManager.LoadScene("Pendulums");
+    }
+
+    public void GoToReleaseTriggerScene() {
+        SceneManager.LoadScene("ReleaseTrigger");
+    }
+
+    public void GoToConveyorBeltScene() {
+        SceneManager.LoadScene("ConveyorBelt");
     }
 
 }

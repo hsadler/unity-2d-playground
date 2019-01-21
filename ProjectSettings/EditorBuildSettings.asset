@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LeverAndFulcrum.unity
     guid: 2064045ed2c3f864da93ad8d460737a7
+  - enabled: 1
+    path: Assets/Scenes/Pendulums.unity
+    guid: 5f69a100d5bf20849b0b95fd834a625d
+  - enabled: 1
+    path: Assets/Scenes/ReleaseTrigger.unity
+    guid: deb5928fb5e6ff44ab9fda68ba0e2101
+  - enabled: 1
+    path: Assets/Scenes/PumpBalloon.unity
+    guid: 0c364a3ec4c4a664eb7a54bbfbee65f3
+  - enabled: 1
+    path: Assets/Scenes/ConveyorBelt.unity
+    guid: 459add7216802cc4d99960d07c8bf460
   m_configObjects: {}
